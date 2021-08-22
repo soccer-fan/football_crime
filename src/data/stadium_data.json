@@ -1,0 +1,622 @@
+[
+  {
+    "Team": "Arsenal",
+    "FDCOUK": "Arsenal",
+    "City": "London",
+    "Stadium": "Emirates Stadium",
+    "Capacity": 60361,
+    "Latitude": 51.555,
+    "Longitude": -0.108611,
+    "Country": "England"
+  },
+  {
+    "Team": "Aston Villa",
+    "FDCOUK": "Aston Villa",
+    "City": "Birmingham",
+    "Stadium": "Villa Park",
+    "Capacity": 42785,
+    "Latitude": 52.509167,
+    "Longitude": -1.884722,
+    "Country": "England"
+  },
+  {
+    "Team": "Blackburn Rovers",
+    "FDCOUK": "Blackburn",
+    "City": "Blackburn",
+    "Stadium": "Ewood Park",
+    "Capacity": 31154,
+    "Latitude": 53.728611,
+    "Longitude": -2.489167,
+    "Country": "England"
+  },
+  {
+    "Team": "Bolton Wanderers",
+    "FDCOUK": "Bolton",
+    "City": "Bolton",
+    "Stadium": "Reebok Stadium",
+    "Capacity": 28100,
+    "Latitude": 53.580556,
+    "Longitude": -2.535556,
+    "Country": "England"
+  },
+  {
+    "Team": "Chelsea",
+    "FDCOUK": "Chelsea",
+    "City": "London",
+    "Stadium": "Stamford Bridge",
+    "Capacity": 42449,
+    "Latitude": 51.481667,
+    "Longitude": -0.191111,
+    "Country": "England"
+  },
+  {
+    "Team": "Everton",
+    "FDCOUK": "Everton",
+    "City": "Liverpool",
+    "Stadium": "Goodison Park",
+    "Capacity": 40157,
+    "Latitude": 53.438889,
+    "Longitude": -2.966389,
+    "Country": "England"
+  },
+  {
+    "Team": "Fulham",
+    "FDCOUK": "Fulham",
+    "City": "London",
+    "Stadium": "Craven Cottage",
+    "Capacity": 25700,
+    "Latitude": 51.475,
+    "Longitude": -0.221667,
+    "Country": "England"
+  },
+  {
+    "Team": "Liverpool",
+    "FDCOUK": "Liverpool",
+    "City": "Liverpool",
+    "Stadium": "Anfield",
+    "Capacity": 45276,
+    "Latitude": 53.430819,
+    "Longitude": -2.960828,
+    "Country": "England"
+  },
+  {
+    "Team": "Manchester City",
+    "FDCOUK": "Man City",
+    "City": "Manchester",
+    "Stadium": "Etihad Stadium",
+    "Capacity": 47405,
+    "Latitude": 53.482989,
+    "Longitude": -2.200292,
+    "Country": "England"
+  },
+  {
+    "Team": "Manchester United",
+    "FDCOUK": "Man United",
+    "City": "Stretford",
+    "Stadium": "Old Trafford",
+    "Capacity": 75811,
+    "Latitude": 53.463056,
+    "Longitude": -2.291389,
+    "Country": "England"
+  },
+  {
+    "Team": "Newcastle United",
+    "FDCOUK": "Newcastle",
+    "City": "Newcastle upon Tyne",
+    "Stadium": "Sports Direct Arena",
+    "Capacity": 52409,
+    "Latitude": 54.975556,
+    "Longitude": -1.621667,
+    "Country": "England"
+  },
+  {
+    "Team": "Norwich City",
+    "FDCOUK": "Norwich",
+    "City": "Norwich",
+    "Stadium": "Carrow Road",
+    "Capacity": 27010,
+    "Latitude": 52.622128,
+    "Longitude": 1.308653,
+    "Country": "England"
+  },
+  {
+    "Team": "Queens Park Rangers",
+    "FDCOUK": "QPR",
+    "City": "London",
+    "Stadium": "Loftus Road",
+    "Capacity": 18439,
+    "Latitude": 51.509167,
+    "Longitude": -0.232222,
+    "Country": "England"
+  },
+  {
+    "Team": "Stoke City",
+    "FDCOUK": "Stoke",
+    "City": "Stoke-on-Trent",
+    "Stadium": "Britannia Stadium",
+    "Capacity": 27740,
+    "Latitude": 52.988333,
+    "Longitude": -2.175556,
+    "Country": "England"
+  },
+  {
+    "Team": "Sunderland",
+    "FDCOUK": "Sunderland",
+    "City": "Sunderland",
+    "Stadium": "Stadium of Light",
+    "Capacity": 48707,
+    "Latitude": 54.9144,
+    "Longitude": -1.3882,
+    "Country": "England"
+  },
+  {
+    "Team": "Swansea City",
+    "FDCOUK": "Swansea",
+    "City": "Swansea",
+    "Stadium": "Liberty Stadium",
+    "Capacity": 20520,
+    "Latitude": 51.6422,
+    "Longitude": -3.9351,
+    "Country": "England"
+  },
+  {
+    "Team": "Tottenham Hotspur",
+    "FDCOUK": "Tottenham",
+    "City": "London",
+    "Stadium": "White Hart Lane",
+    "Capacity": 36230,
+    "Latitude": 51.603333,
+    "Longitude": -0.065833,
+    "Country": "England"
+  },
+  {
+    "Team": "West Bromwich Albion",
+    "FDCOUK": "West Brom",
+    "City": "West Bromwich",
+    "Stadium": "The Hawthorns",
+    "Capacity": 27877,
+    "Latitude": 52.509167,
+    "Longitude": -1.963889,
+    "Country": "England"
+  },
+  {
+    "Team": "Wigan Athletic",
+    "FDCOUK": "Wigan",
+    "City": "Wigan",
+    "Stadium": "DW Stadium",
+    "Capacity": 25133,
+    "Latitude": 53.547778,
+    "Longitude": -2.653889,
+    "Country": "England"
+  },
+  {
+    "Team": "Wolverhampton Wanderers",
+    "FDCOUK": "Wolves",
+    "City": "Wolverhampton",
+    "Stadium": "Molineux Stadium",
+    "Capacity": 27828,
+    "Latitude": 52.590278,
+    "Longitude": -2.130278,
+    "Country": "England"
+  },
+  {
+    "Team": "Barnsley",
+    "FDCOUK": "Barnsley",
+    "City": "Barnsley",
+    "Stadium": "Oakwell",
+    "Capacity": 23009,
+    "Latitude": 53.552222,
+    "Longitude": -1.4675,
+    "Country": "England"
+  },
+  {
+    "Team": "Birmingham City",
+    "FDCOUK": "Birmingham",
+    "City": "Birmingham",
+    "Stadium": "St Andrew's Stadium",
+    "Capacity": 30079,
+    "Latitude": 52.475703,
+    "Longitude": -1.868189,
+    "Country": "England"
+  },
+  {
+    "Team": "Blackpool",
+    "FDCOUK": "Blackpool",
+    "City": "Blackpool",
+    "Stadium": "Bloomfield Road",
+    "Capacity": 16220,
+    "Latitude": 53.804722,
+    "Longitude": -3.048056,
+    "Country": "England"
+  },
+  {
+    "Team": "Brighton & Hove Albion",
+    "FDCOUK": "Brighton",
+    "City": "Brighton",
+    "Stadium": "American Express Community Stadium",
+    "Capacity": 22374,
+    "Latitude": 50.861822,
+    "Longitude": -0.083278,
+    "Country": "England"
+  },
+  {
+    "Team": "Bristol City",
+    "FDCOUK": "Bristol City",
+    "City": "Bristol",
+    "Stadium": "Ashton Gate",
+    "Capacity": 21497,
+    "Latitude": 51.44,
+    "Longitude": -2.620278,
+    "Country": "England"
+  },
+  {
+    "Team": "Burnley",
+    "FDCOUK": "Burnley",
+    "City": "Burnley",
+    "Stadium": "Turf Moor",
+    "Capacity": 22546,
+    "Latitude": 53.789167,
+    "Longitude": -2.230278,
+    "Country": "England"
+  },
+  {
+    "Team": "Cardiff City",
+    "FDCOUK": "Cardiff",
+    "City": "Cardiff",
+    "Stadium": "Cardiff City Stadium",
+    "Capacity": 26828,
+    "Latitude": 51.472778,
+    "Longitude": -3.203056,
+    "Country": "England"
+  },
+  {
+    "Team": "Coventry City",
+    "FDCOUK": "Coventry",
+    "City": "Coventry",
+    "Stadium": "Ricoh Arena",
+    "Capacity": 32609,
+    "Latitude": 52.448056,
+    "Longitude": -1.495556,
+    "Country": "England"
+  },
+  {
+    "Team": "Crystal Palace",
+    "FDCOUK": "Crystal Palace",
+    "City": "London",
+    "Stadium": "Selhurst Park",
+    "Capacity": 26309,
+    "Latitude": 51.398333,
+    "Longitude": -0.085556,
+    "Country": "England"
+  },
+  {
+    "Team": "Derby County",
+    "FDCOUK": "Derby",
+    "City": "Derby",
+    "Stadium": "Pride Park Stadium",
+    "Capacity": 33597,
+    "Latitude": 52.915,
+    "Longitude": -1.447222,
+    "Country": "England"
+  },
+  {
+    "Team": "Doncaster Rovers",
+    "FDCOUK": "Doncaster",
+    "City": "Doncaster",
+    "Stadium": "Keepmoat Stadium",
+    "Capacity": 15231,
+    "Latitude": 53.509722,
+    "Longitude": -1.113889,
+    "Country": "England"
+  },
+  {
+    "Team": "Hull City",
+    "FDCOUK": "Hull",
+    "City": "Kingston upon Hull",
+    "Stadium": "KC Stadium",
+    "Capacity": 25404,
+    "Latitude": 53.746111,
+    "Longitude": -0.367778,
+    "Country": "England"
+  },
+  {
+    "Team": "Ipswich Town",
+    "FDCOUK": "Ipswich",
+    "City": "Ipswich",
+    "Stadium": "Portman Road",
+    "Capacity": 30311,
+    "Latitude": 52.055061,
+    "Longitude": 1.144831,
+    "Country": "England"
+  },
+  {
+    "Team": "Leeds United",
+    "FDCOUK": "Leeds",
+    "City": "Leeds",
+    "Stadium": "Elland Road",
+    "Capacity": 39460,
+    "Latitude": 53.777778,
+    "Longitude": -1.572222,
+    "Country": "England"
+  },
+  {
+    "Team": "Leicester City",
+    "FDCOUK": "Leicester",
+    "City": "Leicester",
+    "Stadium": "King Power Stadium",
+    "Capacity": 32500,
+    "Latitude": 52.620278,
+    "Longitude": -1.142222,
+    "Country": "England"
+  },
+  {
+    "Team": "Middlesbrough",
+    "FDCOUK": "Middlesbrough",
+    "City": "Middlesbrough",
+    "Stadium": "Riverside Stadium",
+    "Capacity": 34988,
+    "Latitude": 54.578333,
+    "Longitude": -1.216944,
+    "Country": "England"
+  },
+  {
+    "Team": "Millwall",
+    "FDCOUK": "Millwall",
+    "City": "London",
+    "Stadium": "The Den",
+    "Capacity": 20146,
+    "Latitude": 51.485953,
+    "Longitude": -0.05095,
+    "Country": "England"
+  },
+  {
+    "Team": "Nottingham Forest",
+    "FDCOUK": "Nott'm Forest",
+    "City": "Nottingham",
+    "Stadium": "City Ground",
+    "Capacity": 30576,
+    "Latitude": 52.94,
+    "Longitude": -1.132778,
+    "Country": "England"
+  },
+  {
+    "Team": "Peterborough United",
+    "FDCOUK": "Peterboro",
+    "City": "Peterborough",
+    "Stadium": "London Road Stadium",
+    "Capacity": 15460,
+    "Latitude": 52.564697,
+    "Longitude": -0.240406,
+    "Country": "England"
+  },
+  {
+    "Team": "Portsmouth",
+    "FDCOUK": "Portsmouth",
+    "City": "Portsmouth",
+    "Stadium": "Fratton Park",
+    "Capacity": 20224,
+    "Latitude": 50.796389,
+    "Longitude": -1.063889,
+    "Country": "England"
+  },
+  {
+    "Team": "Reading",
+    "FDCOUK": "Reading",
+    "City": "Reading",
+    "Stadium": "Madejski Stadium",
+    "Capacity": 24224,
+    "Latitude": 51.422222,
+    "Longitude": -0.982778,
+    "Country": "England"
+  },
+  {
+    "Team": "Southampton",
+    "FDCOUK": "Southampton",
+    "City": "Southampton",
+    "Stadium": "St Mary's Stadium",
+    "Capacity": 32689,
+    "Latitude": 50.905833,
+    "Longitude": -1.391111,
+    "Country": "England"
+  },
+  {
+    "Team": "Watford",
+    "FDCOUK": "Watford",
+    "City": "Watford",
+    "Stadium": "Vicarage Road",
+    "Capacity": 23500,
+    "Latitude": 51.649836,
+    "Longitude": -0.401486,
+    "Country": "England"
+  },
+  {
+    "Team": "West Ham United",
+    "FDCOUK": "West Ham",
+    "City": "London",
+    "Stadium": "Boleyn Ground",
+    "Capacity": 35303,
+    "Latitude": 51.531944,
+    "Longitude": 0.039444,
+    "Country": "England"
+  },
+  {
+    "Team": "Livingston and Gretna",
+    "FDCOUK": "Livingston",
+    "City": "Livingston",
+    "Stadium": "Almondvale Stadium",
+    "Capacity": 10122,
+    "Latitude": 55.886167,
+    "Longitude": -3.522872,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Inverness C.T.",
+    "FDCOUK": "Inverness C",
+    "City": "Iverness",
+    "Stadium": "Caledonian Stadium",
+    "Capacity": 7918,
+    "Latitude": 57.494722,
+    "Longitude": -4.2175,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Celtic",
+    "FDCOUK": "Celtic",
+    "City": "Glasgow",
+    "Stadium": "Celtic Park",
+    "Capacity": 60832,
+    "Latitude": 55.849711,
+    "Longitude": -4.205589,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Dundee",
+    "FDCOUK": "Dundee",
+    "City": "Dundee",
+    "Stadium": "Dens Park",
+    "Capacity": 12085,
+    "Latitude": 56.475264,
+    "Longitude": -2.973194,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Dunfermline Athletic",
+    "FDCOUK": "Dunfermline",
+    "City": "Dunfermline",
+    "Stadium": "East End Park",
+    "Capacity": 11380,
+    "Latitude": 56.075308,
+    "Longitude": -3.441906,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Hibernian",
+    "FDCOUK": "Hibernian",
+    "City": "Edinburgh",
+    "Stadium": "Easter Road",
+    "Capacity": 20421,
+    "Latitude": 55.961667,
+    "Longitude": -3.165556,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Falkirk",
+    "FDCOUK": "Falkirk",
+    "City": "Falkirk",
+    "Stadium": "Falkirk Stadium",
+    "Capacity": 9200,
+    "Latitude": 56.005136,
+    "Longitude": -3.754269,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Motherwell and Gretna",
+    "FDCOUK": "Motherwell",
+    "City": "Motherwell",
+    "Stadium": "Fir Park",
+    "Capacity": 13742,
+    "Latitude": 55.779947,
+    "Longitude": -3.980078,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Partick Thistle",
+    "FDCOUK": "Partick",
+    "City": "Glasgow",
+    "Stadium": "Firhill Stadium",
+    "Capacity": 10887,
+    "Latitude": 55.881556,
+    "Longitude": -4.269639,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Rangers",
+    "FDCOUK": "Rangers",
+    "City": "Glasgow",
+    "Stadium": "Ibrox Stadium",
+    "Capacity": 51082,
+    "Latitude": 55.853206,
+    "Longitude": -4.309258,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "St. Johnstone",
+    "FDCOUK": "St Johnstone",
+    "City": "Perth",
+    "Stadium": "McDiarmid Park",
+    "Capacity": 10673,
+    "Latitude": 56.409686,
+    "Longitude": -3.476928,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Hamilton Academical",
+    "FDCOUK": "Hamilton",
+    "City": "Hamilton",
+    "Stadium": "New Douglas Park",
+    "Capacity": 6078,
+    "Latitude": 55.782156,
+    "Longitude": -4.058503,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Aberdeen and Inverness C.T.",
+    "FDCOUK": "Aberdeen",
+    "City": "Aberdeen",
+    "Stadium": "Pittodrie Stadium",
+    "Capacity": 22199,
+    "Latitude": 57.159167,
+    "Longitude": -2.088889,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Kilmarnock",
+    "FDCOUK": "Kilmarnock",
+    "City": "Kilmarnock",
+    "Stadium": "Rugby Park",
+    "Capacity": 18128,
+    "Latitude": 55.604225,
+    "Longitude": -4.508122,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "St. Mirren",
+    "FDCOUK": "St Mirren",
+    "City": "Paisley",
+    "Stadium": "St. Mirren Park",
+    "Capacity": 8016,
+    "Latitude": 55.850556,
+    "Longitude": -4.443889,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Dundee United",
+    "FDCOUK": "Dundee United",
+    "City": "Dundee",
+    "Stadium": "Tannadice Park",
+    "Capacity": 14209,
+    "Latitude": 56.474703,
+    "Longitude": -2.968961,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Heart of Midlothian",
+    "FDCOUK": "Hearts",
+    "City": "Edinburgh",
+    "Stadium": "Tynecastle Stadium",
+    "Capacity": 17420,
+    "Latitude": 55.939167,
+    "Longitude": -3.232222,
+    "Country": "Scotland"
+  },
+  {
+    "Team": "Ross County",
+    "FDCOUK": "Ross County",
+    "City": "Dingvall",
+    "Stadium": "Victoria Park",
+    "Capacity": 6310,
+    "Latitude": 57.595947,
+    "Longitude": -4.418914,
+    "Country": "Scotland"
+  }
+]
