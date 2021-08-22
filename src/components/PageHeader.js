@@ -24,9 +24,9 @@ export const PageHeader = (props) => {
     const classes = useStyles();
     return (
         <div className={classes.headerBackground}>
-            <SportsSoccerIcon className={[classes.headerText, classes.headerPadded]} />
+            <SportsSoccerIcon className={`${classes.headerText} ${classes.headerPadded}`} />
             <h1 className={classes.headerText}>Football crime tracker</h1>
-            <SecurityIcon className={[classes.headerText, classes.headerPadded]} />
+            <SecurityIcon className={`${classes.headerText} ${classes.headerPadded}`} />
             <br />
             <h3 className={classes.headerText}>Crimes committed at the grounds of the following clubs - Data for</h3>
             <Select className={classes.headerPadded}
@@ -37,7 +37,7 @@ export const PageHeader = (props) => {
                 {
                     props.dates.map((date, index) => {
                         const dateStringParts = date.toDateString().split(" ");
-                        return <MenuItem value={index}>{dateStringParts[1]} {dateStringParts[3]}</MenuItem>
+                        return <MenuItem key={index} value={index}>{dateStringParts[1]} {dateStringParts[3]}</MenuItem>
                     })
                 }
             </Select>
