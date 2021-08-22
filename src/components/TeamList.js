@@ -17,29 +17,29 @@ export const TeamList = (props) => {
     return (
         <TableContainer component={Paper}>
             <Table>
-            <TableHead>
-                <TableRow>
-                <TableCell>Team</TableCell>
-                <TableCell align="right">Stadium</TableCell>
-                <TableCell align="right">Total Crimes</TableCell>
-                <TableCell align="right">Info</TableCell>
-                </TableRow>
-            </TableHead>
-            <TableBody>
-                {props.teamData.map((row) => {
-                    return (
-                    <TableRow key={row.team}>
-                        <TableCell component="th" scope="row">
-                        {row.team}
-                        </TableCell>
-                        <TableCell align="right">{row.stadium}</TableCell>
-                        <TableCell align="right">{row.totalCrimes}</TableCell>
-                        <TableCell align="right"><Button onClick={() => props.showModal(row.team)}><InfoIcon/></Button></TableCell>
+                <TableHead>
+                    <TableRow>
+                        <TableCell>Team</TableCell>
+                        <TableCell align="right">Stadium</TableCell>
+                        <TableCell align="right">Total Crimes</TableCell>
+                        <TableCell align="right">Info</TableCell>
                     </TableRow>
-                    )
-                })}
-            </TableBody>
+                </TableHead>
+                <TableBody>
+                    {props.teamData.map((row) => {
+                        return (
+                            <TableRow key={row.team}>
+                                <TableCell component="th" scope="row">
+                                    {row.team}
+                                </TableCell>
+                                <TableCell align="right">{row.stadium}</TableCell>
+                                <TableCell align="right">{row.totalCrimes}</TableCell>
+                                <TableCell align="right"><Button onClick={() => props.showModal(row.team)}><InfoIcon /></Button></TableCell>
+                            </TableRow>
+                        )
+                    })}
+                </TableBody>
             </Table>
-      </TableContainer>
+        </TableContainer>
     );
 }
