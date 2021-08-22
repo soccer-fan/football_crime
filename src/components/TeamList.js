@@ -7,10 +7,13 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import InfoIcon from '@material-ui/icons/Info';
-import { Button, makeStyles } from '@material-ui/core';
+import { Button } from '@material-ui/core';
 
+/*
+Displays a list of teams with their total crime stats. Each entry has an info button that can be clicked
+to display a popup dialog with a brekdown of types of crime for that team's stadium
+*/
 export const TeamList = (props) => {
-    const listContent = props.teamData && props.teamData.length > 0 ? props.teamData.map((team) => <li>{team.team} {team.totalCrimes}</li>) : <li>Placeholder</li>;
     return (
         <TableContainer component={Paper}>
             <Table>

@@ -1,8 +1,10 @@
 import {PieChart, Pie, Cell, Legend} from 'recharts'
 
+/*
+This component wraps the recharts pie chart component to display a crime types breakdown 
+*/
 export const CrimeBreakdown = (props) => {
-    
-    const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'cyan', 'green'];
+    const COLORS = ['coral', 'blue', 'orange', 'lime', 'pink', 'gray', 'red', 'goldenrod', 'forestgreen', 'khaki', 'yellow', 'cyan', 'olive', 'red'];
     
     return (
         <div>

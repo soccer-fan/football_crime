@@ -6,22 +6,29 @@ const divStyles = {
 };
 
 const headerTextStyles = {
-    display: "inline"
+    display: "inline",
+    color: 'white'
 };
 
 const iconStyles = {
-    spacing: 16
+    paddingLeft: 24,
+    paddingRight: 24,
+    color: "white"
 };
 
+/*
+Displays a header for our page with information on the period the data was fetched for
+*/
 export const PageHeader = (props) => {
     const dateStringParts = props.date.toDateString().split(" ");
 
     return (
         <div style={divStyles}>
-            <SportsSoccerIcon styles={iconStyles}/>
+            <SportsSoccerIcon style={iconStyles}/>
             <h1 style={headerTextStyles}>Football crime tracker</h1>
-            <SecurityIcon styles={iconStyles}/>
-            <h3>Crimes committed at the grounds of the following clubs - Data for {dateStringParts[1]} {dateStringParts[3]} (last full month)</h3>
+            <SecurityIcon style={iconStyles}/>
+            <br/>
+            <h3 style={headerTextStyles}>Crimes committed at the grounds of the following clubs - Data for {dateStringParts[1]} {dateStringParts[3]} (the full month before last)</h3>
 
         </div>
 

@@ -5,15 +5,18 @@ import stadiumData from '../data/stadium_data.json';
 
 import { groupBy } from '../utils/groupBy';
 
+/*
+This component deals with querying the Police API for the crime data for each of the grounds and formatting that data to pass
+down to the child components that need it
+*/
 export const TeamListContainer = (props) => {
     const [teamData, setTeamData] = useState({});
-    const [isLoading, setIsLoading] = useState(true);
-    const [queriesResolved, setQueriesResolved] = useState(0);
     const [selectedTeam, setSelectedTeam] = useState(null);
     
     useEffect(() => {
         stadiumData.forEach((stadium) => {
-            fetch(`/api/crimes-street/all-crime?lat=${stadium.Latitude}&lng=${stadium.Longitude}&date=${props.date.getFullYear()}-${props.date.getMonth()}`,
+            // JS internally indexes months from 0, so we need to add one on to make the API work correctly
+            fetch(`/api/crimes-street/all-crime?lat=${stadium.Latitude}&lng=${stadium.Longitude}&date=${props.date.getFullYear()}-${props.date.getMonth()+1}`,
              { crossDomain:true,})
             .then((response) => {
                 if(response.ok) {
@@ -22,32 +25,25 @@ export const TeamListContainer = (props) => {
                         setTeamData((t) => {
                             return {...t, [stadium.Team]: {stadium: stadium, crimeStats: data}};
                         });
-                        setQueriesResolved(prev => prev + 1);
-                        if(queriesResolved === stadiumData.length) {
-                            setIsLoading(false);
-                            //alert('all loaded');
-                        }
                     });
-                } else {
-                    // error case here
-                    setQueriesResolved(prev => prev + 1);
-                    if(queriesResolved === stadiumData.length) {
-                        setIsLoading(false);
-                        //alert('all loaded');
-                    }
-                }
+                } 
             });
         })
 
-    }, []);
+    }, [props.date]);
 
+    /*
+     We store teamData in our state as a keyed object so that we can update without getting duplicates,
+     but we need to convert it to a list to give the TeamList something it can map to table rows
+    */
     const teamDataAsList = Object.keys(teamData).map(key => {
         let name = {team: key};
         Object.assign(name, teamData[key]);
         return name;
     });
 
-    const formatTeamData = (data) => {
+    // Sorts data alphabetically and sets fields needed by TeamList
+    const formatTeamDataForList = (data) => {
         if(data && data.length > 0) {
             const sortedData =  data.sort((a,b) => {
                 const teamA = a.team.toLowerCase();
@@ -60,21 +56,18 @@ export const TeamListContainer = (props) => {
                     team: item.team,
                     stadium: item.stadium.Stadium,
                     totalCrimes: item.crimeStats.length,
-                    groupedCrimes: groupBy(item.crimeStats, 'category')
                 }
             })
-
-
         }
         return [];   
     }
 
+    // Passed into the list to be used as event handler for info button clicks
     const showModal = (team) => {
         setSelectedTeam(team);
     }
 
-    console.log(selectedTeam);
-
+    // Returns the crime data to be displayed in the pop up dialog when a team's info button is clicked
     const modalData = () => {
         if(selectedTeam) {
             const groupedData = groupBy(teamData[selectedTeam].crimeStats, 'category');
@@ -84,9 +77,8 @@ export const TeamListContainer = (props) => {
     }
 
     return(
-
         <div>
-            <TeamList teamData={formatTeamData(teamDataAsList)} isLoading={isLoading} showModal={showModal} />
+            <TeamList teamData={formatTeamDataForList(teamDataAsList)} showModal={showModal} />
             {selectedTeam && 
             <TeamInfo
              name={selectedTeam}
