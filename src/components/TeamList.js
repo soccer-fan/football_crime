@@ -21,7 +21,7 @@ export const TeamList = (props) => {
                 <TableRow>
                 <TableCell>Team</TableCell>
                 <TableCell align="right">Stadium</TableCell>
-                <TableCell align="right">TotalCrimes</TableCell>
+                <TableCell align="right">Total Crimes</TableCell>
                 <TableCell align="right">Info</TableCell>
                 </TableRow>
             </TableHead>
