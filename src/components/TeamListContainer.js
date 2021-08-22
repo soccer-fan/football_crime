@@ -14,6 +14,9 @@ export const TeamListContainer = (props) => {
     const [selectedTeam, setSelectedTeam] = useState(null);
     
     useEffect(() => {
+        // If this gets re-called, it is because we've changed the month to get data for, so throw out the old data
+        setTeamData(old => ({}));
+        setSelectedTeam(old => null);
         stadiumData.forEach((stadium) => {
             // JS internally indexes months from 0, so we need to add one on to make the API work correctly
             fetch(`/api/crimes-street/all-crime?lat=${stadium.Latitude}&lng=${stadium.Longitude}&date=${props.date.getFullYear()}-${props.date.getMonth()+1}`,
